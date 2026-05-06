@@ -107,12 +107,13 @@
         @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&display=swap');
 
         :root {
-            --c-bg: #ffffff;
-            --c-surface: #f7f6f4;
-            --c-ink: #111111;
-            --c-muted: #999;
-            --c-line: #e8e8e8;
-            --c-accent: #111111;
+            --c-bg: #faf6f1;
+            --c-surface: #f1e9de;
+            --c-ink: #2c1810;
+            --c-muted: #8a6f63;
+            --c-line: #d8c3b3;
+            --c-accent: #2c1810;
+            --c-brand: #c89a8c;
             --c-danger: #cc3333;
             --font-display: 'Bebas Neue', sans-serif;
             --font-body: 'DM Sans', sans-serif;
@@ -150,7 +151,7 @@
         @keyframes q-modal-in { from{opacity:0;transform:translateY(12px)} to{opacity:1;transform:translateY(0)} }
         #q-modal-ia {
             display: none; position: fixed; inset: 0; z-index: 999999;
-            background: rgba(240,238,235,0.96);
+            background: rgba(241,233,222,0.97);
             font-family: var(--font-body);
             overflow-y: auto; box-sizing: border-box;
         }
